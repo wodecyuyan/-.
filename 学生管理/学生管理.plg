@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 学生管理 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ASUS\AppData\Local\Temp\RSP4F67.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/学生管理.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"C:\C语言\学生管理\管理.c"
+]
+Creating command line "cl.exe @C:\Users\ASUS\AppData\Local\Temp\RSP4F67.tmp" 
+<h3>Output Window</h3>
+Compiling...
+管理.c
+C:\C语言\学生管理\管理.c(25) : warning C4013: 'scanf_s' undefined; assuming extern returning int
+C:\C语言\学生管理\管理.c(47) : error C2143: syntax error : missing ';' before 'type'
+C:\C语言\学生管理\管理.c(48) : error C2065: 'id' : undeclared identifier
+C:\C语言\学生管理\管理.c(49) : error C2143: syntax error : missing ';' before 'type'
+C:\C语言\学生管理\管理.c(50) : error C2143: syntax error : missing ';' before 'type'
+C:\C语言\学生管理\管理.c(51) : error C2065: 'Id' : undeclared identifier
+C:\C语言\学生管理\管理.c(51) : warning C4047: '!=' : 'int ' differs in levels of indirection from 'void *'
+C:\C语言\学生管理\管理.c(53) : error C2223: left of '->stdId' must point to struct/union
+C:\C语言\学生管理\管理.c(55) : error C2223: left of '->stdName' must point to struct/union
+C:\C语言\学生管理\管理.c(55) : error C2223: left of '->stdAge' must point to struct/union
+C:\C语言\学生管理\管理.c(55) : error C2223: left of '->stdId' must point to struct/union
+C:\C语言\学生管理\管理.c(56) : error C2065: 'flag' : undeclared identifier
+C:\C语言\学生管理\管理.c(61) : error C2223: left of '->next' must point to struct/union
+C:\C语言\学生管理\管理.c(70) : error C2143: syntax error : missing ';' before 'type'
+C:\C语言\学生管理\管理.c(72) : error C2143: syntax error : missing ';' before 'type'
+C:\C语言\学生管理\管理.c(73) : error C2223: left of '->stdId' must point to struct/union
+C:\C语言\学生管理\管理.c(76) : warning C4022: 'free' : pointer mismatch for actual parameter 1
+C:\C语言\学生管理\管理.c(77) : warning C4047: '=' : 'int ' differs in levels of indirection from 'void *'
+C:\C语言\学生管理\管理.c(79) : warning C4098: 'delstudent' : 'void' function returning a value
+C:\C语言\学生管理\管理.c(81) : error C2143: syntax error : missing ';' before 'type'
+C:\C语言\学生管理\管理.c(82) : error C2223: left of '->next' must point to struct/union
+C:\C语言\学生管理\管理.c(83) : warning C4047: '!=' : 'int ' differs in levels of indirection from 'void *'
+C:\C语言\学生管理\管理.c(85) : error C2223: left of '->stdId' must point to struct/union
+C:\C语言\学生管理\管理.c(87) : error C2223: left of '->next' must point to struct/union
+C:\C语言\学生管理\管理.c(88) : error C2065: 'anterId' : undeclared identifier
+C:\C语言\学生管理\管理.c(88) : error C2223: left of '->next' must point to struct/union
+C:\C语言\学生管理\管理.c(89) : warning C4022: 'free' : pointer mismatch for actual parameter 1
+C:\C语言\学生管理\管理.c(90) : warning C4047: '=' : 'int ' differs in levels of indirection from 'void *'
+C:\C语言\学生管理\管理.c(97) : error C2223: left of '->next' must point to struct/union
+C:\C语言\学生管理\管理.c(136) : warning C4013: 'addstdent' undefined; assuming extern returning int
+C:\C语言\学生管理\管理.c(137) : warning C4013: 'findstdent' undefined; assuming extern returning int
+C:\C语言\学生管理\管理.c(138) : warning C4013: 'delstdent' undefined; assuming extern returning int
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+管理.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
